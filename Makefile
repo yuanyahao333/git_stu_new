@@ -1,4 +1,3 @@
 all:main
-
 main:main.c
-    gcc main.c -o main
+    gcc %.c -o %
